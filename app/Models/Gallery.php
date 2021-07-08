@@ -11,7 +11,7 @@ class Gallery extends Model
     use HasFactory;
     use SoftDeletes;
 
-    protected $fillabel = [
+    protected $fillable = [
         'travel_packages_id',
         'image',
     ];
